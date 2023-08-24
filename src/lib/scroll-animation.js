@@ -13,7 +13,7 @@ export const scrollAnimation = (position, target, isMobile, onUpdate) => {
       start: "top bottom",
       //top of the section reaches the top of the viewport
       end: "top top",
-      scrub: 4,
+      scrub: 2,
       immediateRender: false
 
     },
@@ -29,7 +29,7 @@ export const scrollAnimation = (position, target, isMobile, onUpdate) => {
       start: "top bottom",
       //top of the section reaches the top of the viewport
       end: "top top",
-      scrub: 4,
+      scrub: 2,
       immediateRender: false
     },    
   })
@@ -53,7 +53,7 @@ export const scrollAnimation = (position, target, isMobile, onUpdate) => {
       start: "top bottom",
       //top of the section reaches the top of the viewport
       end: "top top",
-      scrub: 4,
+      scrub: 2,
       immediateRender: false
     },    
   }).to(position, {
@@ -66,7 +66,7 @@ export const scrollAnimation = (position, target, isMobile, onUpdate) => {
       start: "top bottom",
       //top of the section reaches the top of the viewport
       end: "top top",
-      scrub: 4,
+      scrub: 2,
       immediateRender: false
 
     },
@@ -82,7 +82,7 @@ export const scrollAnimation = (position, target, isMobile, onUpdate) => {
       start: "top bottom",
       //top of the section reaches the top of the viewport
       end: "top top",
-      scrub: 4,
+      scrub: 2,
       immediateRender: false
     },    
   }).to('.display-section', {
@@ -93,7 +93,7 @@ export const scrollAnimation = (position, target, isMobile, onUpdate) => {
       start: "top bottom",
       //top of the section reaches the top of the viewport
       end: "top top",
-      scrub: 4,
+      scrub: 2,
       immediateRender: false
     },    
   })
